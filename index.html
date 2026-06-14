@@ -6,8 +6,15 @@
 <meta name="theme-color" content="#1565C0">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<title>همراه ناظر</title>
-<link rel="manifest" href="manifest.json">
+<title>Hamrah_Nazer</title>
+<link rel="manifest" href="/hamnaz/manifest.json">
+<script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/hamnaz/sw.js')
+        .then(reg => console.log('SW registered:', reg))
+        .catch(err => console.log('SW failed:', err));
+    }
+</script>
 <style>/* required styles */
 
 .leaflet-pane,
