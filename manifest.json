@@ -1,8 +1,9 @@
 {
-  "name": "همراه ناظر",
-  "short_name": "ناظر",
+  "name": "Hamrah_nazer",
+  "short_name": "Hamnaz",
   "description": "سیستم بازرسی میدانی",
-  "start_url": "/index.html",
+  "start_url": "/hamnaz/",
+  "scope": "/hamnaz/",
   "display": "standalone",
   "background_color": "#1565C0",
   "theme_color": "#1565C0",
