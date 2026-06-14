@@ -1,8 +1,10 @@
-const CACHE = 'hamarah-nazir-v1';
+const CACHE = 'hamarah-nazer-v1';
 const ASSETS = [
-  '/',
-  '/index.html',
-  '/manifest.json'
+  '/hamnaz/',
+  '/hamnaz/index.html',
+  '/hamnaz/manifest.json',
+  '/hamnaz/icon-192.png',
+  '/hamnaz/icon-512.png'
 ];
 
 self.addEventListener('install', e => {
